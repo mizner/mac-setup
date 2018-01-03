@@ -4,6 +4,9 @@
 * Install Initial Programs
  - Dropbox
  - Dash
+ - iTerm2
+ - VS Code
+ - PHPStorm
 
 
 
