@@ -6,6 +6,6 @@
 * Show hidden files 
   * `defaults write com.apple.finder AppleShowAllFiles YES`
   * Relaunch Finder
-* Disable 
+* Disable SIP (System Integrity Protection)
   * Restart, hold CMD + R for recovery mode
   * Run `csrutil disable`
