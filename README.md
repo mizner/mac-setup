@@ -27,5 +27,5 @@
 
 * Install composer `curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer`
 https://progblog.io/How-to-Globally-install-Composer-on-OS-X/
- * WPCS `composer global require wp-coding-standards/wpcs:dev-master`
+ * WPCS `composer global require wp-coding-standards/wpcs:dev-master` [Repo Issue](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/481)
  * PSR `composer global require "squizlabs/php_codesniffer=*"`
