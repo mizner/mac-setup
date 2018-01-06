@@ -34,6 +34,8 @@
 `composer global require "squizlabs/php_codesniffer=*"`
 
 ### Composer package: [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/)
+https://kellenmace.com/set-up-php-codesniffer-in-phpstorm-with-wordpress-coding-standards/
+https://tommcfarlin.com/php-codesniffer-with-composer/
 
 `composer global require wp-coding-standards/wpcs:dev-master`
 
