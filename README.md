@@ -25,7 +25,6 @@
   - Run `csrutil disable`
 
 
-* Install composer `curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer`
-https://progblog.io/How-to-Globally-install-Composer-on-OS-X/
+* Install composer `curl -sS https://getcomposer.org/installer | php` then `sudo mv composer.phar /usr/local/bin/composer`
  * WPCS `composer global require wp-coding-standards/wpcs:dev-master` [Repo Issue](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/481)
  * PSR `composer global require "squizlabs/php_codesniffer=*"`
