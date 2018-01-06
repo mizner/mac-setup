@@ -29,7 +29,7 @@
 
 `sudo mv composer.phar /usr/local/bin/composer`
 
-### Composer package: [PHP Standards Recommendations](http://www.php-fig.org/psr/)
+### Composer package: [PSR (PHP Standards Recommendations)](http://www.php-fig.org/psr/)
 
 `composer global require "squizlabs/php_codesniffer=*"`
 
