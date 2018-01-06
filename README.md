@@ -23,3 +23,8 @@
 * Disable SIP (System Integrity Protection)
   - Restart, hold CMD + R for recovery mode
   - Run `csrutil disable`
+
+
+* Install composer `curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer`
+https://progblog.io/How-to-Globally-install-Composer-on-OS-X/
+ * WPCS `global require wp-coding-standards/wpcs:dev-master`
