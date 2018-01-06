@@ -24,12 +24,18 @@
   - Restart, hold CMD + R for recovery mode
   - Run `csrutil disable`
 
-## Composer
-* Install composer `curl -sS https://getcomposer.org/installer | php` then `sudo mv composer.phar /usr/local/bin/composer`
-     * PSR `composer global require "squizlabs/php_codesniffer=*"`
-### WordPress Coding Standards
+## [Composer](https://getcomposer.org/)
+`curl -sS https://getcomposer.org/installer | php` 
+
+`sudo mv composer.phar /usr/local/bin/composer`
+
+### [PHP Standards Recommendations](http://www.php-fig.org/psr/)
+
+`composer global require "squizlabs/php_codesniffer=*"`
+
+### [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/)
 
 Install WPCS with composer
 
-`composer global require wp-coding-standards/wpcs:dev-master` [Repo](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/)
+`composer global require wp-coding-standards/wpcs:dev-master`
 * Update `phpcs` by running `phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs`
