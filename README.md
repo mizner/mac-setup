@@ -34,6 +34,9 @@
 `composer global require "squizlabs/php_codesniffer=*"`
 
 ### Composer package: [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/)
+
 `composer global require wp-coding-standards/wpcs:dev-master`
+
 Let `phpcs` know about the new standards by running:
+
 `phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs`
