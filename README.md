@@ -24,7 +24,7 @@
   - Restart, hold CMD + R for recovery mode
   - Run `csrutil disable`
 
-
+## Composer
 * Install composer `curl -sS https://getcomposer.org/installer | php` then `sudo mv composer.phar /usr/local/bin/composer`
      * PSR `composer global require "squizlabs/php_codesniffer=*"`
      * WordPress Coding Standards
