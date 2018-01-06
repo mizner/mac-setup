@@ -27,6 +27,7 @@
 ## Composer
 * Install composer `curl -sS https://getcomposer.org/installer | php` then `sudo mv composer.phar /usr/local/bin/composer`
      * PSR `composer global require "squizlabs/php_codesniffer=*"`
-     * WordPress Coding Standards
-          * WPCS `composer global require wp-coding-standards/wpcs:dev-master` [Repo](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/)
-          * Update `phpcs` by running `phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs`
+### WordPress Coding Standards
+Install WPCS with composer
+`composer global require wp-coding-standards/wpcs:dev-master` [Repo](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/)
+* Update `phpcs` by running `phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs`
