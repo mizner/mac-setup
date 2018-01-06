@@ -40,3 +40,6 @@
 Let `phpcs` know about the new standards by running:
 
 `phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs`
+
+### Update .zshrc
+Add `PATH=$PATH:~/.composer/vendor/bin` to your `.zshrc` file (usually directly in your home directory)
