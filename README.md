@@ -46,6 +46,10 @@ Let `phpcs` know about the new standards by running:
 ### Update .zshrc
 Add `PATH=$PATH:~/.composer/vendor/bin` to your `.zshrc` file (usually directly in your home directory)
 
+### Install sshpass
+https://gist.github.com/arunoda/7790979
+`brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb`
+
 ### Download jq (Bash Variables from JSON)
 https://stedolan.github.io/jq/download/
 `brew install jq`
