@@ -53,3 +53,7 @@ https://gist.github.com/arunoda/7790979
 ### Download jq (Bash Variables from JSON)
 https://stedolan.github.io/jq/download/
 `brew install jq`
+
+## Speed Up Mac Animations
+http://osxdaily.com/2015/01/06/make-the-window-resizing-animation-speed-instant-in-mac-os-x/
+`defaults write -g NSWindowResizeTime -float 0.003`
