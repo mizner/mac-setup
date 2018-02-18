@@ -57,3 +57,7 @@ https://stedolan.github.io/jq/download/
 ## Speed Up Mac Animations
 http://osxdaily.com/2015/01/06/make-the-window-resizing-animation-speed-instant-in-mac-os-x/
 `defaults write -g NSWindowResizeTime -float 0.003`
+
+## Install tmux
+https://github.com/tmux/tmux/wiki
+`brew install tmux`
