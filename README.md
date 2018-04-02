@@ -8,9 +8,10 @@
  - VS Code
  - PHPStorm
 
+# Brew
 * Install homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Fix permissions for brew: `sudo chown -R $(whoami) /usr/local`
 * `brew install doctl` Digital Ocean CLI tools
-
 
 
 * add global NPM packages to finder nav
