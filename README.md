@@ -62,3 +62,6 @@ http://osxdaily.com/2015/01/06/make-the-window-resizing-animation-speed-instant-
 ## Install tmux
 https://github.com/tmux/tmux/wiki
 `brew install tmux`
+
+## Mac Screenshots (swap to jpg)
+`defaults write com.apple.screencapture type jpg;killall SystemUIServer`
