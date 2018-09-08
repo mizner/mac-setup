@@ -69,5 +69,8 @@ https://github.com/tmux/tmux/wiki
 ## Brew Cask Applications
 `brew cask install alfred google-chrome google-drive firefox slack docker dropbox 1password visual-studio-code iterm2`
 
+## Time Machine Exclusions
+https://gist.github.com/PyYoshi/2d6d1eadf745e3fc5274c7b0a8b00983
+* Node modules: `find `pwd` -type d -maxdepth 3 -name node_modules | xargs -n1 sudo tmutil addexclusion -p`
 
 
