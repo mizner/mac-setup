@@ -65,3 +65,9 @@ https://github.com/tmux/tmux/wiki
 
 ## Mac Screenshots (swap to jpg)
 `defaults write com.apple.screencapture type jpg;killall SystemUIServer`
+
+## Brew Cask Applications
+`brew cask install alfred google-chrome google-drive firefox slack docker dropbox 1password visual-studio-code iterm2`
+
+
+
