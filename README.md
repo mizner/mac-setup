@@ -1,6 +1,9 @@
 # Mizner's new macOS setup
 
-* Get 1Password Setup - The One.
+* Get 1Password Setup
+
+# Disable photos from opening when iPhone is plugged in
+`defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true`
 
 ## Install Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
