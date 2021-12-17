@@ -8,10 +8,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Brew
 * Install homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 * Fix permissions for brew: `sudo chown -R $(whoami) /usr/local`
-brew install node
+
+# Node
+* Install NVM - https://github.com/nvm-sh/nvm: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash`
 ```
 brew install \
-node@8 \
 composer \
 doctl \
 fzf \
@@ -25,15 +26,13 @@ brew cask install \
 alfred \
 firefox \
 daisydisk \
-dash \
 dropbox \
 docker \
 google-chrome \
 handbrake \
 hyper \
-jetbrains-toolbox \
-local-by-flywheel \
-nordvpn \
+local \
+tunnelbear \
 parallels \
 setapp \
 sequel-pro \
@@ -43,16 +42,14 @@ transmit \
 tor-browser \
 tower \
 visual-studio-code \
-virtualbox \
-
 vlc \
 ```
 
 ## Finder
-* View > Show View Options 
+* View > Show View Options
 	* Sort by Date Added
 * Preferences
-	* General 
+	* General
 		* New Finder = Downloads
 	* Advanced
 		* Show all filename extensions
@@ -72,7 +69,7 @@ vlc \
   - Run `csrutil disable`
 
 ## [Composer](https://getcomposer.org/)
-`brew install composer` 
+`brew install composer`
 
 `sudo mv composer.phar /usr/local/bin/composer`
 
