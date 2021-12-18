@@ -27,26 +27,36 @@ yarn \
 brew cask install \
 1password \
 alfred \
-firefox \
+cleanmymac \
+cleanshot \
 daisydisk \
+discord \
 dropbox \
-docker \
 google-chrome \
 handbrake \
-hyper \
 local \
-tunnelbear \
-parallels \
-setapp \
-sequel-pro \
+mullvadvpn \
+notable \
+postman \
+rectangle \
 slack \
-spectacle \
+tableplus \
+telegram \
 transmit \
 tor-browser \
 tower \
 visual-studio-code \
 vlc \
+zoom \
 ```
+
+## App Store
+* Paprika
+* Be Focused
+* Clean Text
+
+## Other Apps
+* Paste
 
 ## Finder
 * View > Show View Options
