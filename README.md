@@ -27,6 +27,7 @@ yarn \
 brew cask install \
 1password \
 alfred \
+brave-browser \
 cleanmymac \
 cleanshot \
 daisydisk \
